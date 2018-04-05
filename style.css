@@ -1,0 +1,45 @@
+#gradient{
+	background: linear-gradient(to right, blue , yellow);
+	font-family: fantasy;
+	color: rgba(0,0,0,.5);	
+    letter-spacing: .4em;
+	top: 15%;	
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;	
+	padding: 5px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+h3{
+	text-transform: none;
+	letter-spacing: .2em;
+}
+
+p{
+	letter-spacing: .1em;
+	color: rgba(15, 8, 59, 0.7);
+}
+input{  
+	margin: 10px;
+}
+
+#random{
+	font-family: fantasy;
+	margin: 15px;
+	padding: 10px;
+	border-radius: 50px;
+	font-size: 1.1em;
+	cursor: pointer;
+	background-color: rgba(0,0,0,0.2);
+	color: rgba(255,255,255,1);
+	outline: none;
+}
+
+#random:hover {
+	background-color: rgba(0,0,0,1);
+}
